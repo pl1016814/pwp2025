@@ -1,3 +1,4 @@
+uvicorn apiWaveshare:app --host 0.0.0.0 --port 8000
 from fastapi import FastAPI, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
